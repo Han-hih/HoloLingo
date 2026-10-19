@@ -28,7 +28,7 @@ docs/setup-guide
 
 - `type`과 `scope`는 영문 소문자로 작성합니다.
 - `scope`는 선택 사항이며 변경 영역을 짧게 표시합니다.
-- `subject`는 명령형으로 간결하게 작성하고 마침표를 붙이지 않습니다.
+- `subject`는 한글로 간결하게 작성하고 마침표를 붙이지 않습니다.
 - 한 커밋에는 하나의 논리적인 변경만 담습니다.
 
 | 타입 | 용도 |
@@ -47,17 +47,17 @@ docs/setup-guide
 예시:
 
 ```text
-feat(practice): add pronunciation feedback
-fix(camera): handle denied permission
-docs: add Git contribution guide
+feat(practice): 발음 피드백 추가
+fix(camera): 카메라 권한 거부 처리
+docs: Git 기여 가이드 추가
 ```
 
 호환성을 깨는 변경은 타입 뒤에 `!`를 붙이고 본문에 `BREAKING CHANGE:`를 작성합니다.
 
 ```text
-feat(api)!: change lesson response format
+feat(api)!: 학습 응답 형식 변경
 
-BREAKING CHANGE: lesson items now use an id-based structure.
+BREAKING CHANGE: 학습 항목이 ID 기반 구조를 사용하도록 변경됨
 ```
 
 ## Pull Request

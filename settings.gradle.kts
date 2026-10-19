@@ -22,5 +22,11 @@ dependencyResolutionManagement {
     }
 }
 
-rootProject.name = "hologram"
+rootProject.name = "HoloLingo"
+
 include(":app")
+include(":core:model")
+include(":core:data")
+include(":core:recognition")
+include(":core:renderer")
+include(":feature:practice")
