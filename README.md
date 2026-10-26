@@ -12,6 +12,7 @@ HoloLingo는 Android와 Jetpack Compose로 만드는 다국어 필기 학습 앱
 :core:data           개념 저장소와 정답 판정
 :core:recognition    ML Kit 필기 인식 어댑터
 :core:renderer       3D/외부 출력 경계
+:core:connectivity   Nearby 기기 검색, 인증, 재생 명령 전송
 :feature:practice    언어 선택, 필기, 판정, 시각화 UI
 ```
 
@@ -19,6 +20,6 @@ HoloLingo는 Android와 Jetpack Compose로 만드는 다국어 필기 학습 앱
 
 ```text
 app → feature:practice → core:data / core:recognition / core:renderer
-                                  ↓
-                              core:model
+  └→ core:connectivity                         ↓
+                                           core:model
 ```
