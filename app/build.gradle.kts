@@ -39,6 +39,8 @@ dependencies {
     implementation(project(":feature:practice"))
     implementation(project(":core:data"))
     implementation(project(":core:recognition"))
+    implementation(project(":core:connectivity"))
+    implementation(project(":core:model"))
 
     implementation(platform(libs.androidx.compose.bom))
     implementation(libs.androidx.activity.compose)
